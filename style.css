@@ -405,13 +405,20 @@ button:hover {
 	color: transparent;
     background-clip: text;
 }
+
+#contact #email_address {
+	display: inline-block;
+	text-align: right;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	color: blue;
+}
 #contact_links {
 	display: flex;
-	margin-top: 50px;
 	justify-content: right;
 }
 #contact_links a{
-	margin: 0px 10px;
+	margin-left: 20px;
 	width: 50px;
 	transition: 0.15s;
 }
@@ -479,7 +486,7 @@ button:hover {
 		font-size: 1.8em;
 	}
 	#contact_links a{
-		width: 70px;
+		width: 60px;
 	}
 }
 @media screen and (min-width: 1920px) { 
