@@ -443,6 +443,12 @@ button:hover {
 		align-items: center;
 		text-align: center;
 	}
+	#education_description h2 {
+		font-size: 2.2em;
+	}
+	#education_description p {
+		font-size: 1.4em;
+	}
 }
 @media screen and (min-width: 1600px) {
 	a {
