@@ -363,11 +363,10 @@ button:hover {
 	position: absolute;
 	width: 100%;
 	transform: scaleX(1);
-	height: 4px;
+	height: 2px;
 	bottom: 0px;
 	left: 0px;
-	background: rgb(0,44,223);
-	background: var(--theme3);
+	background: black;
 	transform-origin: right bottom 0px;
 	transition: transform 0.25s ease-out;
 }
